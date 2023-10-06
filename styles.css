@@ -162,13 +162,11 @@ input[type=submit]:hover {
 
 label {
   order: 1;
-  margin-bottom: 0.3em;
 }
 
 input,
 select,
 textarea {
-  padding: 0.5em;
   order: 2;
 }
 

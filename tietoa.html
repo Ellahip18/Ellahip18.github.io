@@ -62,28 +62,26 @@
     </p>
     <div class="container">
       <form action="mailto:hans@purola.fi" method="post">
-        <label for="enimi">Etunimi</label>
-        <input type="text" id="enimi" name="etunimi" placeholder="Kirjoita tähän.." required>
-        <br/>
-        <label for="snimi">Sukunimi</label>
-        <input type="text" id="snimi" name="sukunimi" placeholder="Kirjoita tähän.." required>
-        <br/>
-        <!--<label for="sposti">Sähköposti</label>
-        <input type="text" id="sposti" name="sähköposti" placeholder="Kirjoita tähän.." required>
-        <br/>-->
+        <div class="form-group">
+          <input class="form-control" type="text" id="enimi" name="etunimi" placeholder="Kirjoita tähän.." required>
+          <label class="small mb-1" for="enimi">Etunimi</label>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" id="snimi" name="sukunimi" placeholder="Kirjoita tähän.." required>
+          <label class="small mb-1" for="snimi">Sukunimi</label>
+        </div>
+        <div class="form-group">
+          <input class="form-control" type="text" id="sposti" name="sähköposti" placeholder="Kirjoita tähän.." required>
+          <label class="small mb-1" for="sposti">Sähköposti</label>
+        </div>
         <label for="ynimi">Yrityksen nimi</label>
         <input type="text" id="ynimi" name="yrityksen nimi" placeholder="Kirjoita tähän..">
-        <br/>
-        <div class="form-group">
-          <input class="form-control" name="first_name" id="first_name" type="text" placeholder="First Name" required>
-          <label class="small mb-1" for="first_name">Sähköposti</label>
-        </div>
         <br/>        
         <label for="puh">Puhelinnumero (+358..)</label>
         <input type="text" id="puh" name="puhelinnumero" placeholder="+358 40 1234567">
         <br/>
         <label for="subject">Kerro</label>
-        <textarea id="subject" name="subject" placeholder="Kirjoita tähän.." style="height:200px" required></textarea>
+        <textarea id="subject" name="subject" placeholder="Kirjoita tähän.." style="height:200px"></textarea>
         <br/>
         <input type="submit" value="Lähetä">
       </form>
