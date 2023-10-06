@@ -1,0 +1,180 @@
+body {
+  background-color: #EBE0C0;
+  position: relative;
+  font-family: Georgia, serif, sans-serif;
+}
+
+.nappi {
+  position: absolute;
+  top: 120vh;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+h1 {
+  color: #261615;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  background-image: url(tausta.JPG);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 601px) {
+  h1 {
+    font-size: 75px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
+.mynavbar {
+  overflow: hidden;
+  text-align: center;
+  background-color: #CCA391;
+  padding: 20px;
+}
+
+a:link,
+a:visited {
+  background-color: rgb(165, 60, 66);
+  color: white;
+  font-size: 20px;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover,
+a:active {
+  background-color: #361F1E;
+}
+
+.mynavbar .icon {
+  display: none;
+}
+
+content {
+  padding: 16px;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  color: #361F1E;
+}
+
+p {
+  background-color: none;
+  color: #261615;
+  font-size: 16px;
+  padding: -5px 20px;
+}
+
+.kortti {
+  background-color: #CCA391;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 7px;
+}
+img {
+  border-radius: 7px 7px 0 0;
+  background-color: white;
+}
+.alue {
+  padding: 2px 16px;
+}
+
+@media screen and (min-width: 601px) {
+  .kortti h3 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kortti h3 {
+    font-size: 11px;
+  }
+}
+
+.kortti p {
+  text-align: center;
+  font-style: italic;
+}
+@media screen and (min-width: 601px) {
+  .kortti p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .kortti p {
+    font-size: 9px;
+  }
+}
+
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #361F1E;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(165, 60, 66);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #361F1E;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #CCA391;
+  padding: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  order: 1;
+  margin-bottom: 0.3em;
+}
+
+input,
+select,
+textarea {
+  padding: 0.5em;
+  order: 2;
+}
+
+input:required+label::after,
+select:required+label::after,
+textarea:required+label::after {
+  content: " *";
+  color: #0A570A;
+}

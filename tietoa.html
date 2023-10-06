@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fi">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="Hans Purola, HME Production Oy, yms" />
+    <meta name="description" content="emt" />
+    <meta name="author" content="Hans Purola" />
+    <title>HME Production Oy – Yrityksen tiedot</title>
+  </head>
+
+  <body>
+    <h1>HME Production Oy</h1>
+    <nav class="mynavbar" id="navBar">
+      <a href="index.html">Etusivu</a>
+      <a href="tietoa.html">Yrityksen tiedot</a>
+      <a href="referenssit.html">Referenssit</a>
+    </nav>
+
+    <h2>Yrityksen tiedot</h2>
+    <h3>Yhteystiedot</h3>
+    <p>
+      HME Production Oy<br/>Hans Purola<br/>Valtakatu 17
+      B<br/>05800 HYVINKÄÄ
+    </p>
+    <p>Email: hans@purola.fi<br/>Mob:+358-40 3581782</p>
+    
+    <h3>Laskutustiedot</h3>
+    <p>Verkkolaskuosoitteemme ovat:</p>
+    <p>Operaattori<br/>Apix Messaging Oy<br/>(003723327487)</p>
+    <p>Verkkolaskuosoite<br/>003733352264</p>
+    <p>OVT-tunnus<br/>003733352264</p>
+    <p>Huomioittehan, että
+      mikäli käytössänne on Handelsbanken tai Paikallisosuuspankit verkkolaskun
+      lähettämiseen, tulee teidän
+      käyttää Apixin verkkolaskuosoitteenamme seuraavaa osoitetta:
+      verkkolaskuosoite: 003723327487 ja operaattoritunnus: DABAFIHH.<br/>
+      Mikäli ette voi lähettää verkkolaskuja, pyydämme lähettämään
+      laskut ostolaskujen skannauspalveluun.
+    </p>
+    <p>Sähköpostiskannauksen osoite:<br/>
+      003733352264@procountor.apix.fi
+    </p>
+    <p>Lähetettävä lasku tulee olla sähköpostin
+      liitteenä PDF-tiedostona. Yhdellä sähköpostilla ja sen liitteissä saa olla
+      vain yksi lasku. Jos sähköposti sisältää laskun lisäksi muita
+      liitetiedostoja, lisätään ne laskun liitteiksi. Liitetiedostojen
+      maksimikoko on 2 MB. Lähetyksen jälkeen palvelusta tulee joko hyväksyntä-
+      tai hylkäysilmoitus sähköpostilla lähetysosoitteeseen 15 minuutin kuluessa
+      lähetyksestä.
+    </p>
+    <p>
+      Paperilaskujen skannauksen osoite:<br/>HME Production Oy (Apix
+      skannauspalvelu)<br/>PL 16112<br/>00021 LASKUTUS</p>
+    <p> 
+      Jotta skannauspalvelu voi
+      kohdistaa laskunne, tulee tämä laskutusosoite tulostaa myös itse laskuun,
+      eikä pelkästään kirjekuoreen. Tähän laskutusosoitteeseen ei tule lähettää
+      muuta materiaalia kuin laskuja, eli esimerkiksi tiedotusten ja
+      markkinointimateriaalin postiosoite pysyy ennallaan.
+    </p>
+    <div class="container">
+      <form action="mailto:hans@purola.fi" method="post">
+        <label for="enimi">Etunimi</label>
+        <input type="text" id="enimi" name="etunimi" placeholder="Kirjoita tähän.." required>
+        <br/>
+        <label for="snimi">Sukunimi</label>
+        <input type="text" id="snimi" name="sukunimi" placeholder="Kirjoita tähän.." required>
+        <br/>
+        <!--<label for="sposti">Sähköposti</label>
+        <input type="text" id="sposti" name="sähköposti" placeholder="Kirjoita tähän.." required>
+        <br/>-->
+        <label for="ynimi">Yrityksen nimi</label>
+        <input type="text" id="ynimi" name="yrityksen nimi" placeholder="Kirjoita tähän..">
+        <br/>
+        <div class="form-group">
+          <input class="form-control" name="first_name" id="first_name" type="text" placeholder="First Name" required>
+          <label class="small mb-1" for="first_name">Sähköposti</label>
+        </div>
+        <br/>        
+        <label for="puh">Puhelinnumero (+358..)</label>
+        <input type="text" id="puh" name="puhelinnumero" placeholder="+358 40 1234567">
+        <br/>
+        <label for="subject">Kerro</label>
+        <textarea id="subject" name="subject" placeholder="Kirjoita tähän.." style="height:200px" required></textarea>
+        <br/>
+        <input type="submit" value="Lähetä">
+      </form>
+    </div>
+  </body>
+</html>
